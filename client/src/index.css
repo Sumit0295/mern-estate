@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header{
+	background-color: #F5DD61;
+}
+/* 
+body{
+	
+	background-image: url('image/i6.jpg');
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative ;
+    top: -2px; 
+} */
+
+#links a:hover{
+	color: red;
+	
+	/* color: #F7EFE5; */
+}
+
+#links a li:hover{	
+	font-weight: 800;
+}
+
+.abc{
+	margin-top: 5rem;
+	height: 500px;
+	/* background-image: url('image/i4.png'); */
+	border-radius: 60%;
+}
+
+/* .home-pg{
+	background-color: aqua;
+} */
+
+#signIn, .home-pg{
+	/* background-image: url('image/i1.jpg'); */
+	background-color: #F7EFE5;
+	opacity: 0.9;
+	border-radius: 2rem;
+	/* top: 50%;
+	left: 50%; */
+	/* transform: translate(-50%, -50%); */
+	
+}
+
+#signUp{
+	
+	background-color: #F7EFE5;
+	border-radius: 2rem;
+	
+}
+
+.box-container{
+	background-image: url('image/i6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-color: red; */
+	/* width: 100%; */
+	height: 89.5vh;
+}
+
+.cont-sign{
+padding: 5rem;
+}
+@media (max-width: '1000px') {
+	#signIn{
+		background-color: green;
+	}
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#signIn{
+	background-color: aqua;
+}
+
+.box-1{
+	margin: 0 auto;
+	padding: 1rem 0;
+	height: 10rem;
+	width: 20rem;
+	border-radius: 50%;
+	background-color: #fff;
+	font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+	text-align: center;
+}
+
+.sh{
+	font-weight: 800;
+}
+
+.sh1 p{
+	font-size: 1.2rem;
+	color: black;
+}
+
+/* .box-1{
+	background-color: blue;
+	line-height: 300px;
+	width: 300px;
+} */
+
+#cont-1{
+	height: 60vh;
+	background-color: aliceblue;
+	opacity: .8;
+}
+
+img{
+	border-radius: 50%;
+	height: 500px;
+	width: 200px;
+}
+
+@media (max-width: 420px) {
+	#signIn{
+		background-color: indianred;
+		margin: 0 20px;
+	}
+  }
+  
+
+  @media (min-width: 421px) and (max-width: 720px) {
+	#signIn{
+		background-color: green;
+	}
+  }
+
+  @media (min-width: 721px) and (max-width: 1220px) {
+	#signIn{
+		background-color:#9B3922;
+	}
+  }
+  
